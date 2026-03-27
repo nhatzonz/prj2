@@ -16,9 +16,9 @@ public class DatabaseSeeder {
         AppDatabase db = AppDatabase.getInstance(context);
 
         // Seed Users
-        if (db.userDao().countByEmail("user@gmail.com") == 0) {
-            User user = new User("user", "user@gmail.com", "123456", "0901234567");
-            db.userDao().insert(user);
+        if (db.userDao().countByEmail("admin@cinema.com") == 0) {
+            User admin = new User("admin", "admin@cinema.com", "123456", "0901234567");
+            db.userDao().insert(admin);
         }
 
         // Seed Movies
