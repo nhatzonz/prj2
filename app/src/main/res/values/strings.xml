@@ -1,3 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">prj2</string>
+    <string name="app_name">Cinema Booking</string>
+
+    <!-- MainActivity -->
+    <string name="home_hero_title">Chào mừng đến với Cinema</string>
+    <string name="home_hero_subtitle">Đặt vé xem phim dễ dàng, nhanh chóng</string>
+    <string name="menu_movies">Danh sách phim</string>
+    <string name="menu_theaters">Rạp chiếu</string>
+    <string name="menu_showtimes">Lịch chiếu</string>
+    <string name="menu_my_tickets">Vé của tôi</string>
+    <string name="menu_login">Đăng nhập</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="card_movies_title">Phim đang chiếu</string>
+    <string name="card_movies_subtitle">Khám phá các bộ phim hay nhất</string>
+    <string name="card_theaters_title">Rạp chiếu phim</string>
+    <string name="card_theaters_subtitle">Tìm rạp gần bạn</string>
+    <string name="card_showtimes_title">Lịch chiếu phim</string>
+    <string name="card_showtimes_subtitle">Xem và đặt vé ngay hôm nay</string>
+    <string name="logged_in_as">Xin chào, %s</string>
+
+    <!-- Login -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Đăng nhập để đặt vé xem phim</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="register_link">Đăng ký ngay</string>
+    <string name="login_error_empty">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="login_error_invalid">Email hoặc mật khẩu không đúng</string>
+    <string name="login_success">Đăng nhập thành công</string>
+
+    <!-- Register -->
+    <string name="register_title">Đăng ký</string>
+    <string name="register_subtitle">Tạo tài khoản mới</string>
+    <string name="username_hint">Tên người dùng</string>
+    <string name="phone_hint">Số điện thoại</string>
+    <string name="confirm_password_hint">Xác nhận mật khẩu</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="login_link">Đăng nhập</string>
+    <string name="register_error_empty">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="register_error_password_mismatch">Mật khẩu không khớp</string>
+    <string name="register_error_email_exists">Email đã được sử dụng</string>
+    <string name="register_success">Đăng ký thành công</string>
+
+    <!-- Movie List -->
+    <string name="movie_list_title">Phim đang chiếu</string>
+    <string name="search_hint">Tìm kiếm phim...</string>
+    <string name="movie_duration">%d phút</string>
+    <string name="movie_rating">Đánh giá: %s</string>
+    <string name="movie_year">Năm: %d</string>
+    <string name="view_showtimes">Xem lịch chiếu</string>
+    <string name="no_movies">Không có phim nào</string>
+
+    <!-- Theater List -->
+    <string name="theater_list_title">Rạp chiếu phim</string>
+    <string name="theater_address">Địa chỉ: %s</string>
+    <string name="theater_seats">Số ghế: %d</string>
+    <string name="no_theaters">Không có rạp nào</string>
+
+    <!-- Showtime List -->
+    <string name="showtime_list_title">Lịch chiếu phim</string>
+    <string name="showtime_date">Ngày: %s</string>
+    <string name="showtime_time">Giờ: %s</string>
+    <string name="showtime_price">Giá: %s VND</string>
+    <string name="showtime_available_seats">Còn %d ghế trống</string>
+    <string name="btn_book">Đặt vé</string>
+    <string name="no_showtimes">Không có lịch chiếu</string>
+
+    <!-- Seat Selection -->
+    <string name="seat_selection_title">Chọn ghế ngồi</string>
+    <string name="seat_available_label">Trống</string>
+    <string name="seat_booked_label">Đã đặt</string>
+    <string name="seat_selected_label">Đang chọn</string>
+    <string name="selected_seat">Ghế đã chọn: %s</string>
+    <string name="btn_confirm_booking">Đặt vé</string>
+    <string name="select_seat_prompt">Vui lòng chọn một ghế</string>
+    <string name="screen_label">MÀN HÌNH</string>
+
+    <!-- Ticket Confirmation -->
+    <string name="confirmation_title">Đặt vé thành công!</string>
+    <string name="ticket_info_title">Thông tin vé</string>
+    <string name="ticket_movie">Phim: %s</string>
+    <string name="ticket_theater">Rạp: %s</string>
+    <string name="ticket_date">Ngày chiếu: %s</string>
+    <string name="ticket_time">Giờ chiếu: %s</string>
+    <string name="ticket_seat">Ghế: %s</string>
+    <string name="ticket_price">Tổng tiền: %s VND</string>
+    <string name="ticket_booking_date">Ngày đặt: %s</string>
+    <string name="ticket_status">Trạng thái: %s</string>
+    <string name="btn_back_home">Về trang chủ</string>
+    <string name="btn_my_tickets">Xem vé của tôi</string>
+
+    <!-- My Tickets -->
+    <string name="my_tickets_title">Vé của tôi</string>
+    <string name="no_tickets">Bạn chưa đặt vé nào</string>
+    <string name="ticket_status_confirmed">Đã xác nhận</string>
+    <string name="ticket_id">Mã vé: #%d</string>
+
+    <!-- General -->
+    <string name="loading">Đang tải...</string>
+    <string name="error_generic">Có lỗi xảy ra, vui lòng thử lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="back">Quay lại</string>
+    <string name="logout_confirm">Bạn có chắc muốn đăng xuất?</string>
+    <string name="logout_success">Đã đăng xuất</string>
+    <string name="login_required">Bạn cần đăng nhập để đặt vé</string>
+    <string name="btn_login_now">Đăng nhập ngay</string>
 </resources>

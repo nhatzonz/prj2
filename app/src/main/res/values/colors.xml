@@ -2,4 +2,25 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#C62828</color>
+    <color name="primary_dark">#8B0000</color>
+    <color name="primary_variant">#B71C1C</color>
+    <color name="accent">#FF8F00</color>
+    <color name="accent_light">#FFB300</color>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="seat_available">#4CAF50</color>
+    <color name="seat_booked">#F44336</color>
+    <color name="seat_selected">#FF8F00</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="status_bar">#8B0000</color>
+    <color name="genre_chip_bg">#FFEBEE</color>
+    <color name="genre_chip_text">#C62828</color>
+    <color name="rating_color">#FF8F00</color>
+    <color name="price_color">#2E7D32</color>
+    <color name="card_border">#C62828</color>
 </resources>
